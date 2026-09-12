@@ -177,7 +177,7 @@ export default function CellsPage() {
     | 'distribution'
     | 'map256'
     | 'map-raw'
-  >('overlay-fluo')
+  >('replot')
   const [contourData, setContourData] = useState<number[][]>([])
   const [isLoadingContour, setIsLoadingContour] = useState(false)
   const [contourError, setContourError] = useState<string | null>(null)
